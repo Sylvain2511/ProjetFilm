@@ -6,9 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
 
     <Grid>
+        <TextBlock HorizontalAlignment="Left" FontSize="40" Margin="656,54,0,0" Text="Projet Film" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="194"/>
+        <TextBlock HorizontalAlignment="Left" Margin="210,180,0,0" Text="Choix du genre du film" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="274"/>
+        <TextBlock HorizontalAlignment="Left" Margin="252,266,0,0" Text="Liste des films" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="98"/>
+        <ComboBox Name="cboGenre" Margin="790,173,0,0" Width="300" Height="27"/>
 
     </Grid>
 </Page>
